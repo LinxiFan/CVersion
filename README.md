@@ -12,7 +12,7 @@ The function `c_version()` in `version.h` returns an int that denotes the versio
 
 The method is explained [here](http://kristerw.blogspot.com/2016/07/code-behaving-differently-in-c90-c99.html). 
 
-The hack works by exploiting subtle backward incompatibilities in different versions of C and C++. 
+The hack works by exploiting subtle backward incompatibilities in different versions of C and C++. It does *NOT* depend on any compiler-defined macros (e.g. `__cplusplus`). 
 
 ## Run
 
